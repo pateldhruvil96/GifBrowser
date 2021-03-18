@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15188432602326B007CEF5D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15188422602326B007CEF5D /* Reachability.swift */; };
+		A151886D26023D25007CEF5D /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885326023D25007CEF5D /* ClassicSparkTrajectoryFactoryProtocol.swift */; };
+		A151886E26023D25007CEF5D /* ClassicFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885426023D25007CEF5D /* ClassicFireworkController.swift */; };
+		A151886F26023D25007CEF5D /* ClassicSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885526023D25007CEF5D /* ClassicSparkTrajectoryFactory.swift */; };
+		A151887026023D25007CEF5D /* ClassicFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885626023D25007CEF5D /* ClassicFireworkAnimator.swift */; };
+		A151887126023D25007CEF5D /* ClassicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885726023D25007CEF5D /* ClassicFirework.swift */; };
+		A151887226023D25007CEF5D /* FountainFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885926023D25007CEF5D /* FountainFirework.swift */; };
+		A151887326023D25007CEF5D /* FountainFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885A26023D25007CEF5D /* FountainFireworkAnimator.swift */; };
+		A151887426023D25007CEF5D /* FountainFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885B26023D25007CEF5D /* FountainFireworkController.swift */; };
+		A151887526023D25007CEF5D /* FountainSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885C26023D25007CEF5D /* FountainSparkTrajectoryFactory.swift */; };
+		A151887626023D25007CEF5D /* ImageSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885E26023D25007CEF5D /* ImageSparkViewFactory.swift */; };
+		A151887726023D25007CEF5D /* CircleColorSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151885F26023D25007CEF5D /* CircleColorSparkViewFactory.swift */; };
+		A151887826023D25007CEF5D /* CircleColorSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886026023D25007CEF5D /* CircleColorSparkView.swift */; };
+		A151887926023D25007CEF5D /* ImageSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886126023D25007CEF5D /* ImageSparkView.swift */; };
+		A151887A26023D25007CEF5D /* SparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886326023D25007CEF5D /* SparkTrajectory.swift */; };
+		A151887B26023D25007CEF5D /* SparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886426023D25007CEF5D /* SparkTrajectoryFactory.swift */; };
+		A151887C26023D25007CEF5D /* FireworkSparkScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886526023D25007CEF5D /* FireworkSparkScheduler.swift */; };
+		A151887D26023D25007CEF5D /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886626023D25007CEF5D /* Firework.swift */; };
+		A151887E26023D25007CEF5D /* SparkViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886726023D25007CEF5D /* SparkViewAnimator.swift */; };
+		A151887F26023D25007CEF5D /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886826023D25007CEF5D /* SparkView.swift */; };
+		A151888026023D25007CEF5D /* SparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886926023D25007CEF5D /* SparkViewFactory.swift */; };
+		A151888126023D25007CEF5D /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886A26023D25007CEF5D /* FireworkSpark.swift */; };
+		A151888226023D25007CEF5D /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151886C26023D25007CEF5D /* CGPoint+Extensions.swift */; };
+		A151889226025FDB007CEF5D /* GifBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151889126025FDB007CEF5D /* GifBrowserTests.swift */; };
+		A151889C26026077007CEF5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151889B26026077007CEF5D /* Constants.swift */; };
+		A1AAD2E32602722800528C0D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AAD2E22602722800528C0D /* BaseViewController.swift */; };
+		A1FD620626009D0000BE3A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD620526009D0000BE3A54 /* AppDelegate.swift */; };
+		A1FD620826009D0000BE3A54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD620726009D0000BE3A54 /* SceneDelegate.swift */; };
+		A1FD620A26009D0000BE3A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD620926009D0000BE3A54 /* ViewController.swift */; };
+		A1FD620D26009D0000BE3A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FD620B26009D0000BE3A54 /* Main.storyboard */; };
+		A1FD620F26009D0F00BE3A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FD620E26009D0F00BE3A54 /* Assets.xcassets */; };
+		A1FD621226009D0F00BE3A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FD621026009D0F00BE3A54 /* LaunchScreen.storyboard */; };
+		A1FD621B26009DBC00BE3A54 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD621A26009DBC00BE3A54 /* GifViewController.swift */; };
+		A1FD622026009FAB00BE3A54 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD621E26009FAB00BE3A54 /* GifTableViewCell.swift */; };
+		A1FD622126009FAB00BE3A54 /* GifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FD621F26009FAB00BE3A54 /* GifTableViewCell.xib */; };
+		A1FD62352600B23800BE3A54 /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD62342600B23800BE3A54 /* ServerRequest.swift */; };
+		A1FFE5762601C7F700A238D6 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE5752601C7F700A238D6 /* SelectedViewController.swift */; };
+		B961BA1F5977012F1B1CB441 /* Pods_GifBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BE4907F4CD34ACC93516F2 /* Pods_GifBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A151889426025FDC007CEF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FD61FA26009CFF00BE3A54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FD620126009D0000BE3A54;
+			remoteInfo = GifBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EAF7B356F3B3394CB659EF /* Pods-GifBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifBrowser.release.xcconfig"; path = "Target Support Files/Pods-GifBrowser/Pods-GifBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		77C108DFC5AE89DA68CD78C7 /* Pods-GifBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifBrowser.debug.xcconfig"; path = "Target Support Files/Pods-GifBrowser/Pods-GifBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		A15188422602326B007CEF5D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A151885326023D25007CEF5D /* ClassicSparkTrajectoryFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactoryProtocol.swift; sourceTree = "<group>"; };
+		A151885426023D25007CEF5D /* ClassicFireworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkController.swift; sourceTree = "<group>"; };
+		A151885526023D25007CEF5D /* ClassicSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		A151885626023D25007CEF5D /* ClassicFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkAnimator.swift; sourceTree = "<group>"; };
+		A151885726023D25007CEF5D /* ClassicFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFirework.swift; sourceTree = "<group>"; };
+		A151885926023D25007CEF5D /* FountainFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFirework.swift; sourceTree = "<group>"; };
+		A151885A26023D25007CEF5D /* FountainFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFireworkAnimator.swift; sourceTree = "<group>"; };
+		A151885B26023D25007CEF5D /* FountainFireworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainFireworkController.swift; sourceTree = "<group>"; };
+		A151885C26023D25007CEF5D /* FountainSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FountainSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		A151885E26023D25007CEF5D /* ImageSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkViewFactory.swift; sourceTree = "<group>"; };
+		A151885F26023D25007CEF5D /* CircleColorSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkViewFactory.swift; sourceTree = "<group>"; };
+		A151886026023D25007CEF5D /* CircleColorSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkView.swift; sourceTree = "<group>"; };
+		A151886126023D25007CEF5D /* ImageSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkView.swift; sourceTree = "<group>"; };
+		A151886326023D25007CEF5D /* SparkTrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectory.swift; sourceTree = "<group>"; };
+		A151886426023D25007CEF5D /* SparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		A151886526023D25007CEF5D /* FireworkSparkScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSparkScheduler.swift; sourceTree = "<group>"; };
+		A151886626023D25007CEF5D /* Firework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		A151886726023D25007CEF5D /* SparkViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewAnimator.swift; sourceTree = "<group>"; };
+		A151886826023D25007CEF5D /* SparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		A151886926023D25007CEF5D /* SparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewFactory.swift; sourceTree = "<group>"; };
+		A151886A26023D25007CEF5D /* FireworkSpark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
+		A151886C26023D25007CEF5D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		A151888F26025FDB007CEF5D /* GifBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A151889126025FDB007CEF5D /* GifBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifBrowserTests.swift; sourceTree = "<group>"; };
+		A151889326025FDC007CEF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A151889B26026077007CEF5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1AAD2E22602722800528C0D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A1FD620226009D0000BE3A54 /* GifBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FD620526009D0000BE3A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1FD620726009D0000BE3A54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1FD620926009D0000BE3A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1FD620C26009D0000BE3A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1FD620E26009D0F00BE3A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FD621126009D0F00BE3A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FD621326009D0F00BE3A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FD621A26009DBC00BE3A54 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		A1FD621E26009FAB00BE3A54 /* GifTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
+		A1FD621F26009FAB00BE3A54 /* GifTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GifTableViewCell.xib; sourceTree = "<group>"; };
+		A1FD62342600B23800BE3A54 /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		A1FFE5752601C7F700A238D6 /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		D0BE4907F4CD34ACC93516F2 /* Pods_GifBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A151888C26025FDB007CEF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FD61FF26009D0000BE3A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B961BA1F5977012F1B1CB441 /* Pods_GifBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D3B751CC99AD5A08CCBEFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77C108DFC5AE89DA68CD78C7 /* Pods-GifBrowser.debug.xcconfig */,
+				02EAF7B356F3B3394CB659EF /* Pods-GifBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A151885126023D25007CEF5D /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				A151885226023D25007CEF5D /* Classic Firework */,
+				A151885826023D25007CEF5D /* Fountain Firework */,
+				A151885D26023D25007CEF5D /* Spark Views */,
+				A151886226023D25007CEF5D /* Model */,
+				A151886B26023D25007CEF5D /* System Extensions */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		A151885226023D25007CEF5D /* Classic Firework */ = {
+			isa = PBXGroup;
+			children = (
+				A151885326023D25007CEF5D /* ClassicSparkTrajectoryFactoryProtocol.swift */,
+				A151885426023D25007CEF5D /* ClassicFireworkController.swift */,
+				A151885526023D25007CEF5D /* ClassicSparkTrajectoryFactory.swift */,
+				A151885626023D25007CEF5D /* ClassicFireworkAnimator.swift */,
+				A151885726023D25007CEF5D /* ClassicFirework.swift */,
+			);
+			path = "Classic Firework";
+			sourceTree = "<group>";
+		};
+		A151885826023D25007CEF5D /* Fountain Firework */ = {
+			isa = PBXGroup;
+			children = (
+				A151885926023D25007CEF5D /* FountainFirework.swift */,
+				A151885A26023D25007CEF5D /* FountainFireworkAnimator.swift */,
+				A151885B26023D25007CEF5D /* FountainFireworkController.swift */,
+				A151885C26023D25007CEF5D /* FountainSparkTrajectoryFactory.swift */,
+			);
+			path = "Fountain Firework";
+			sourceTree = "<group>";
+		};
+		A151885D26023D25007CEF5D /* Spark Views */ = {
+			isa = PBXGroup;
+			children = (
+				A151885E26023D25007CEF5D /* ImageSparkViewFactory.swift */,
+				A151885F26023D25007CEF5D /* CircleColorSparkViewFactory.swift */,
+				A151886026023D25007CEF5D /* CircleColorSparkView.swift */,
+				A151886126023D25007CEF5D /* ImageSparkView.swift */,
+			);
+			path = "Spark Views";
+			sourceTree = "<group>";
+		};
+		A151886226023D25007CEF5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A151886326023D25007CEF5D /* SparkTrajectory.swift */,
+				A151886426023D25007CEF5D /* SparkTrajectoryFactory.swift */,
+				A151886526023D25007CEF5D /* FireworkSparkScheduler.swift */,
+				A151886626023D25007CEF5D /* Firework.swift */,
+				A151886726023D25007CEF5D /* SparkViewAnimator.swift */,
+				A151886826023D25007CEF5D /* SparkView.swift */,
+				A151886926023D25007CEF5D /* SparkViewFactory.swift */,
+				A151886A26023D25007CEF5D /* FireworkSpark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A151886B26023D25007CEF5D /* System Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A151886C26023D25007CEF5D /* CGPoint+Extensions.swift */,
+			);
+			path = "System Extensions";
+			sourceTree = "<group>";
+		};
+		A151888426025ED8007CEF5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD62342600B23800BE3A54 /* ServerRequest.swift */,
+				A15188422602326B007CEF5D /* Reachability.swift */,
+				A151889B26026077007CEF5D /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A151888526025EDE007CEF5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD621026009D0F00BE3A54 /* LaunchScreen.storyboard */,
+				A1FD620B26009D0000BE3A54 /* Main.storyboard */,
+				A1FD621F26009FAB00BE3A54 /* GifTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A151888626025EE6007CEF5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1AAD2E22602722800528C0D /* BaseViewController.swift */,
+				A1FD620926009D0000BE3A54 /* ViewController.swift */,
+				A1FD621A26009DBC00BE3A54 /* GifViewController.swift */,
+				A1FD621E26009FAB00BE3A54 /* GifTableViewCell.swift */,
+				A1FFE5752601C7F700A238D6 /* SelectedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A151888926025F52007CEF5D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD620526009D0000BE3A54 /* AppDelegate.swift */,
+				A1FD620726009D0000BE3A54 /* SceneDelegate.swift */,
+				A1FD620E26009D0F00BE3A54 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A151889026025FDB007CEF5D /* GifBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A151889126025FDB007CEF5D /* GifBrowserTests.swift */,
+				A151889326025FDC007CEF5D /* Info.plist */,
+			);
+			path = GifBrowserTests;
+			sourceTree = "<group>";
+		};
+		A1FD61F926009CFF00BE3A54 = {
+			isa = PBXGroup;
+			children = (
+				A1FD620426009D0000BE3A54 /* GifBrowser */,
+				A151888926025F52007CEF5D /* SupportingFiles */,
+				A151885126023D25007CEF5D /* Fireworks */,
+				A151889026025FDB007CEF5D /* GifBrowserTests */,
+				A1FD620326009D0000BE3A54 /* Products */,
+				19D3B751CC99AD5A08CCBEFC /* Pods */,
+				A727B85D26B3466A5590B891 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FD620326009D0000BE3A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD620226009D0000BE3A54 /* GifBrowser.app */,
+				A151888F26025FDB007CEF5D /* GifBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FD620426009D0000BE3A54 /* GifBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A151888426025ED8007CEF5D /* Model */,
+				A151888526025EDE007CEF5D /* View */,
+				A151888626025EE6007CEF5D /* Controller */,
+				A1FD621326009D0F00BE3A54 /* Info.plist */,
+			);
+			path = GifBrowser;
+			sourceTree = "<group>";
+		};
+		A727B85D26B3466A5590B891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE4907F4CD34ACC93516F2 /* Pods_GifBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A151888E26025FDB007CEF5D /* GifBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A151889626025FDC007CEF5D /* Build configuration list for PBXNativeTarget "GifBrowserTests" */;
+			buildPhases = (
+				A151888B26025FDB007CEF5D /* Sources */,
+				A151888C26025FDB007CEF5D /* Frameworks */,
+				A151888D26025FDB007CEF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A151889526025FDC007CEF5D /* PBXTargetDependency */,
+			);
+			name = GifBrowserTests;
+			productName = GifBrowserTests;
+			productReference = A151888F26025FDB007CEF5D /* GifBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1FD620126009D0000BE3A54 /* GifBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FD621626009D0F00BE3A54 /* Build configuration list for PBXNativeTarget "GifBrowser" */;
+			buildPhases = (
+				AB52BF106E095B9B865D0534 /* [CP] Check Pods Manifest.lock */,
+				A1FD61FE26009D0000BE3A54 /* Sources */,
+				A1FD61FF26009D0000BE3A54 /* Frameworks */,
+				A1FD620026009D0000BE3A54 /* Resources */,
+				79937A98DC144C0105157060 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifBrowser;
+			productName = GifBrowser;
+			productReference = A1FD620226009D0000BE3A54 /* GifBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FD61FA26009CFF00BE3A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A151888E26025FDB007CEF5D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1FD620126009D0000BE3A54;
+					};
+					A1FD620126009D0000BE3A54 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A1FD61FD26009CFF00BE3A54 /* Build configuration list for PBXProject "GifBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FD61F926009CFF00BE3A54;
+			productRefGroup = A1FD620326009D0000BE3A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FD620126009D0000BE3A54 /* GifBrowser */,
+				A151888E26025FDB007CEF5D /* GifBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A151888D26025FDB007CEF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FD620026009D0000BE3A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FD621226009D0F00BE3A54 /* LaunchScreen.storyboard in Resources */,
+				A1FD620F26009D0F00BE3A54 /* Assets.xcassets in Resources */,
+				A1FD622126009FAB00BE3A54 /* GifTableViewCell.xib in Resources */,
+				A1FD620D26009D0000BE3A54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79937A98DC144C0105157060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifBrowser/Pods-GifBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifBrowser/Pods-GifBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifBrowser/Pods-GifBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB52BF106E095B9B865D0534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GifBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A151888B26025FDB007CEF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A151889226025FDB007CEF5D /* GifBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FD61FE26009D0000BE3A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A151887C26023D25007CEF5D /* FireworkSparkScheduler.swift in Sources */,
+				A151886F26023D25007CEF5D /* ClassicSparkTrajectoryFactory.swift in Sources */,
+				A151888026023D25007CEF5D /* SparkViewFactory.swift in Sources */,
+				A151887F26023D25007CEF5D /* SparkView.swift in Sources */,
+				A151887326023D25007CEF5D /* FountainFireworkAnimator.swift in Sources */,
+				A151886D26023D25007CEF5D /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
+				A151887826023D25007CEF5D /* CircleColorSparkView.swift in Sources */,
+				A151887226023D25007CEF5D /* FountainFirework.swift in Sources */,
+				A151887426023D25007CEF5D /* FountainFireworkController.swift in Sources */,
+				A151889C26026077007CEF5D /* Constants.swift in Sources */,
+				A151887626023D25007CEF5D /* ImageSparkViewFactory.swift in Sources */,
+				A151887B26023D25007CEF5D /* SparkTrajectoryFactory.swift in Sources */,
+				A151888226023D25007CEF5D /* CGPoint+Extensions.swift in Sources */,
+				A1AAD2E32602722800528C0D /* BaseViewController.swift in Sources */,
+				A1FD62352600B23800BE3A54 /* ServerRequest.swift in Sources */,
+				A151886E26023D25007CEF5D /* ClassicFireworkController.swift in Sources */,
+				A1FD620A26009D0000BE3A54 /* ViewController.swift in Sources */,
+				A151887526023D25007CEF5D /* FountainSparkTrajectoryFactory.swift in Sources */,
+				A151888126023D25007CEF5D /* FireworkSpark.swift in Sources */,
+				A151887A26023D25007CEF5D /* SparkTrajectory.swift in Sources */,
+				A151887726023D25007CEF5D /* CircleColorSparkViewFactory.swift in Sources */,
+				A1FD620626009D0000BE3A54 /* AppDelegate.swift in Sources */,
+				A1FD620826009D0000BE3A54 /* SceneDelegate.swift in Sources */,
+				A15188432602326B007CEF5D /* Reachability.swift in Sources */,
+				A1FD622026009FAB00BE3A54 /* GifTableViewCell.swift in Sources */,
+				A1FD621B26009DBC00BE3A54 /* GifViewController.swift in Sources */,
+				A151887026023D25007CEF5D /* ClassicFireworkAnimator.swift in Sources */,
+				A1FFE5762601C7F700A238D6 /* SelectedViewController.swift in Sources */,
+				A151887926023D25007CEF5D /* ImageSparkView.swift in Sources */,
+				A151887E26023D25007CEF5D /* SparkViewAnimator.swift in Sources */,
+				A151887D26023D25007CEF5D /* Firework.swift in Sources */,
+				A151887126023D25007CEF5D /* ClassicFirework.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A151889526025FDC007CEF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FD620126009D0000BE3A54 /* GifBrowser */;
+			targetProxy = A151889426025FDC007CEF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1FD620B26009D0000BE3A54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FD620C26009D0000BE3A54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FD621026009D0F00BE3A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FD621126009D0F00BE3A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A151889726025FDC007CEF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2MP48JDU;
+				INFOPLIST_FILE = GifBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvil.GifBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifBrowser.app/GifBrowser";
+			};
+			name = Debug;
+		};
+		A151889826025FDC007CEF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2MP48JDU;
+				INFOPLIST_FILE = GifBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvil.GifBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifBrowser.app/GifBrowser";
+			};
+			name = Release;
+		};
+		A1FD621426009D0F00BE3A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1FD621526009D0F00BE3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FD621726009D0F00BE3A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C108DFC5AE89DA68CD78C7 /* Pods-GifBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2MP48JDU;
+				INFOPLIST_FILE = GifBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvil.GifBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FD621826009D0F00BE3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EAF7B356F3B3394CB659EF /* Pods-GifBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV2MP48JDU;
+				INFOPLIST_FILE = GifBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhruvil.GifBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A151889626025FDC007CEF5D /* Build configuration list for PBXNativeTarget "GifBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A151889726025FDC007CEF5D /* Debug */,
+				A151889826025FDC007CEF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FD61FD26009CFF00BE3A54 /* Build configuration list for PBXProject "GifBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FD621426009D0F00BE3A54 /* Debug */,
+				A1FD621526009D0F00BE3A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FD621626009D0F00BE3A54 /* Build configuration list for PBXNativeTarget "GifBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FD621726009D0F00BE3A54 /* Debug */,
+				A1FD621826009D0F00BE3A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FD61FA26009CFF00BE3A54 /* Project object */;
+}
